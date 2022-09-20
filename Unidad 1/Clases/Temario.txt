@@ -1,0 +1,14 @@
+- Unidad 1
+Clases y objetos
+Examen: 60%
+Practicas: 40%
+
+- Unidad 2
+SQL, API, DJANGO
+Examen: 50%
+Practicas: 50%
+
+- Unidad 3
+Tensorflow
+Practicas: 30%
+Proyecto Final: 70%

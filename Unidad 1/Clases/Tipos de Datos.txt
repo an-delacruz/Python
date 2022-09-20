@@ -1,0 +1,5 @@
+Numeric -> Integer, Float, Complex
+Boolean
+Set
+Mapping (dictionary)
+Sequence -> String, List, Tuple
