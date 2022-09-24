@@ -13,7 +13,7 @@ class Rectangulo:
     def CalcularArea(self):
         return (self._ancho*self._largo)
     def CalcularPerimetro(self):
-        return 2*(self._ancho+self._largo)
+        return (2*(self._ancho+self._largo)
     
  class Cuadrado:
     def __init__(self,lado) -> None:
