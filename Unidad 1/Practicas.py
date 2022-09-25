@@ -71,7 +71,7 @@ manera inversa letra por letra"""
 from datetime import date
 
 
-opcion = input("1.- Imprimir YYYY/MM/DD \n2.- Imprimir MM/DD/YYYY: ")
+opcion = input("1.- Imprimir YYYY/MM/DD \n2.- Imprimir MM/DD/YYYY \nSeleccione una opcion: ")
 if opcion == "1":
     print(f"{date.today():%Y/%m/%d}")
 elif opcion == "2":
