@@ -1,0 +1,24 @@
+09:17:14 AM:ERROR [Clase3009.py]: 17 no existe la columna «idcliente»
+LINE 1: SELECT * FROM "Clientes" WHERE idCliente = '1'
+                                       ^
+HINT:  Probablemente quiera hacer referencia a la columna «Clientes.id_cliente».
+
+09:21:05 AM:DEBUG [Clase3009.py]: 13 Registros insertados -> 1
+09:22:23 AM:ERROR [Clase3009.py]: 23 no existe la columna «antoniocruzrivera0216@gmail.com»
+LINE 1: SELECT * FROM "Clientes" WHERE email_cliente = "antoniocruzr...
+                                                       ^
+
+09:24:36 AM:DEBUG [Clase3009.py]: 14 Registros insertados -> 3
+09:35:15 AM:ERROR [Clase3009-2.py]: 16 el operador no existe: integer = record
+LINE 1: DELETE FROM "Clientes" WHERE id_cliente = ('5', '6', '7')
+                                                ^
+HINT:  Ningún operador coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+
+09:35:42 AM:ERROR [Clase3009-2.py]: 16 int() argument must be a string, a bytes-like object or a real number, not 'list'
+09:36:25 AM:ERROR [Clase3009-2.py]: 16 el operador no existe: integer = record
+LINE 1: DELETE FROM "Clientes" WHERE id_cliente = ('5', '6', '7')
+                                                ^
+HINT:  Ningún operador coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+
+09:36:49 AM:ERROR [Clase3009-2.py]: 16 not all arguments converted during string formatting
+09:40:50 AM:DEBUG [Clase3009-3.py]: 16 Registros actualizados 2
