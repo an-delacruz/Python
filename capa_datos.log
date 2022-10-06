@@ -2,3 +2,7 @@
 09:44:23 AM:DEBUG [Clase 2909.py]: 17 Sentencia Select
 09:44:23 AM:DEBUG [Clase 2909.py]: 20 Sentencia Update
 09:44:23 AM:DEBUG [Clase 2909.py]: 22 Sentencia Seelect
+09:24:27 AM:DEBUG [Conexion.py]: 29 Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001FF30476C50>
+09:25:13 AM:DEBUG [Conexion.py]: 29 Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001CF72004D60>
+09:25:13 AM:DEBUG [Conexion.py]: 40 Conexión obtenida del pool: <connection object at 0x000001CF70192BD0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+09:25:13 AM:DEBUG [Conexion.py]: 40 Conexión obtenida del pool: <connection object at 0x000001CF70192350; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
