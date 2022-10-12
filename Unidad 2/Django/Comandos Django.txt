@@ -1,0 +1,6 @@
+python manage.py runserver -> Iniciar aplicación 
+python manage.py showmigration -> Mostrar migraciones
+python manage.py makemigrations -> Hacer migraciones
+python manage.py migrate -> Confirmar migraciones
+
+python manage.py createsuperuser -> Crear super usuario
