@@ -9,12 +9,14 @@
   <body>
     <h1>Bienvenido al sistema gestor de personas</h1>
     <div>
+      <a href="nueva_persona">Agregar</a>
       <table border="1">
         <thead>
           <tr>
             <th>Id</th>
             <th>Nombre</th>
             <th>Email</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -23,6 +25,7 @@
             <td>{{persona.id}}</td>
             <td>{{persona.nombre}}</td>
             <td>{{persona.email}}</td>
+            <td><a href="detalle_persona/{{persona.id}}">Ver Detalle</a></td>
           </tr>
           {% endfor %}
         </tbody>
